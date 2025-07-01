@@ -34,6 +34,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: '833e231b-c88c-4180-aa2f-17a826567132'
+    azureSubscription: '56eaab58-d3a8-4e20-9010-ede75a18983b'
     appName: 'https://taskmanagerwebapp-cmdab8hzbrcyajew.canadacentral-01.azurewebsites.net/'
     package: '$(System.DefaultWorkingDirectory)/publish_output'
